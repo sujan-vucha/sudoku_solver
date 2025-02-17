@@ -1,8 +1,8 @@
-# sudoku_solver
-solves the famous sudoku with backtracing and recursion
-Backtracing: /n
-  1)Step-by-step exploration: Tries all possible solutions by making decisions at each stage./n
-  2)Recursion: Uses a recursive approach to go through each option and backtrack if it leads to a dead end./n
-  3)Pruning: Cuts off unpromising paths early to avoid unnecessary work./n
-  4)Problem-solving: Commonly used in puzzles (like Sudoku or N-Queens), combinatorial problems, and optimization tasks./n
-  5)Flexibility: Can adapt to various problem constraints and find all solutions or the best one.
+Sudoku Solver with Backtracking
+This project solves the classic Sudoku puzzle using backtracking and recursion. Here's a breakdown of how backtracking works:
+
+Step-by-step exploration: Attempts all possible solutions by making decisions at each step.
+Recursion: Recursively tries different options, backtracking when a solution is invalid.
+Pruning: Eliminates unpromising paths early to optimize performance.
+Problem-solving: Widely used in puzzles like Sudoku, combinatorial problems, and optimization tasks.
+Flexibility: Adapts to various constraints and can find all solutions or the best one.
